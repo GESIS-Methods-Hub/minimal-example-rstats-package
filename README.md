@@ -4,6 +4,8 @@
 
 ## Supported Features
 
+[`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/). Quarto and R Markdown are not 100% compatible.
+
 | Feature | [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) | [`pkgdown`](https://pkgdown.r-lib.org/) | Notes |
 | --- | --- | --- | --- |
 | Pandoc’s Markdown | 👍 | 👍 | |
