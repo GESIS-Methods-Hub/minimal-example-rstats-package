@@ -1,6 +1,6 @@
 # Minimal Example of Tutorial as R package vignette
 
-[`vignettes/example.Rmd`](vignettes/example.Rmd) shows all **required** metadata used by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
+[`vignettes/example.Rmd`](https://github.com/GESIS-Methods-Hub/minimal-example-rstats-package/blob/main/vignettes/example.Rmd) shows all **required** metadata used by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
 
 ## Supported Features
 
