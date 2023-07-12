@@ -18,10 +18,24 @@ knitr::opts_chunk$set(
 
 This example demonstrates the required metadata by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
 
+## Execution of R code
+
+```{r}
+1 + 1
+```
+
+## Execution of R code from package
+
 ```{r setup}
 library(mwe)
 ```
 
 ```{r}
 hello()
+```
+
+## Creation of figure with R
+
+```{r}
+plot(rnorm(10), rnorm(10))
 ```
