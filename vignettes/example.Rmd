@@ -2,6 +2,7 @@
 title: "Minimal Example of Tutorial as R package vignette"
 author:
 - Raniere Silva
+bibliography: references.bib
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{example}
@@ -28,6 +29,8 @@ This example demonstrates the required metadata by [`methodshub`](https://github
 
 R Markdown does **not** support cross-references like @sec-markdown.
 
+R Markdown supports code execution [@xie2018r].
+
 ## Execution of R code
 
 ```{r}
@@ -49,3 +52,8 @@ hello()
 ```{r}
 plot(rnorm(10), rnorm(10))
 ```
+
+### References
+
+::: {#refs}
+:::

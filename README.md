@@ -11,7 +11,7 @@
 | Pandoc’s Markdown | 👍 | 👍 | |
 | Callout Blocks | 👍 | 😥 | `pkgdown` does **not** have the CSS for callout blocks. |
 | Cross References | 👍 | 😭 | |
-| Citations and Bibliographies | 🤔 | 🤔 | |
+| Citations and Bibliographies | 👍 | 👍 | |
 | [Code Annotation](https://quarto.org/docs/authoring/code-annotation.html) | 👍 | 😭 | Requires Quarto >= 1.3 |
 | Computation of [Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html) | 👍 | 👍 | |
 | Computation of [Inline Code](https://rmarkdown.rstudio.com/lesson-4.html) | 👍 | 👍 | |
