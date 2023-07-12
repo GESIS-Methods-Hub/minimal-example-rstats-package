@@ -4,6 +4,8 @@ Version: 0.0.1
 Authors@R: 
     person("Raniere", "Silva", , "Raniere.CostadaSilva@gesis.org", role = c("aut", "cre"))
 Description: Provide a minimal working example of vignette to be used by methodshub.
+URL: https://gesis-methods-hub.github.io/minimal-example-rstats-package/, https://github.com/GESIS-Methods-Hub/minimal-example-rstats-package
+BugReports: https://github.com/GESIS-Methods-Hub/minimal-example-rstats-package/issues
 License: GPL3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
