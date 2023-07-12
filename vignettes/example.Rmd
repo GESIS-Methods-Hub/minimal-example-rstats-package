@@ -1,5 +1,7 @@
 ---
-title: "example"
+title: "Minimal Example of Tutorial as R package vignette"
+author:
+- Raniere Silva
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{example}
@@ -13,6 +15,8 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+
+This example demonstrates the required metadata by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
 
 ```{r setup}
 library(mwe)
