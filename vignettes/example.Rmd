@@ -18,6 +18,12 @@ knitr::opts_chunk$set(
 
 This example demonstrates the required metadata by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
 
+::: {.callout-important}
+
+[`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/).
+
+:::
+
 ## Execution of R code
 
 ```{r}
