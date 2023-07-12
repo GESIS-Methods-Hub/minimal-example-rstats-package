@@ -21,3 +21,7 @@ This example demonstrates the required metadata by [`methodshub`](https://github
 ```{r setup}
 library(mwe)
 ```
+
+```{r}
+hello()
+```
