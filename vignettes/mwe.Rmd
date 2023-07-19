@@ -2,6 +2,8 @@
 title: "Minimal Example of Tutorial as R package vignette"
 author:
 - Raniere Silva
+image: cover.jpg
+image-alt: Hands closing box with tape.
 bibliography: references.bib
 output: rmarkdown::html_vignette
 vignette: >
