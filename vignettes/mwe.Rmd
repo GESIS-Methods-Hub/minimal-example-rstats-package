@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-This example demonstrates the required metadata by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew).
+This example illustrates the **required** metadata by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew) for a tutorial written as [`pkgdown`](https://pkgdown.r-lib.org/) vignette, based on R Markdown[@xie2018r] which is an extension to Markdown[@markdown2004].
 
 ## Markdown {#sec-markdown}
 
@@ -29,15 +29,33 @@ This example demonstrates the required metadata by [`andrew`](https://github.com
 
 :::
 
+Although footnotes are supported, the use of footnotes is discouraged[^1].
+
+[^1]: Because of it makes navigation harder.
+
+Math can be written using [LaTeX](https://www.latex-project.org/) and is render by [MathJax](https://www.mathjax.org/). Both inline, for example $x$, and standalone, for example $$x = \sqrt{a^2 + b^2}\text{,}$$ is supported.
+
 R Markdown does **not** support cross-references like @sec-markdown.
 
-R Markdown supports code execution [@xie2018r].
+R Markdown supports code execution .
 
 ## Execution of R code
 
+R code can be executed and the output can be included inline, for example `1 + 1` is equal to `r 1 + 1`, and standalone, for example
+
 ```{r}
-1 + 1
+a <- 1
+b <- 1
+
+a + b
 ```
+
+Annotation of code blocks is also supported. For example,
+
+```r
+(3 %/% 2) != (3 %% 2) # <1>
+```
+1. `%%` calculates the remainder on integer division.
 
 ## Execution of R code from package
 
@@ -52,10 +70,20 @@ hello()
 ## Creation of figure with R
 
 ```{r}
-plot(rnorm(10), rnorm(10))
+plot(runif(10, min=0, max=10), type='l')
 ```
 
-### References
+## Binder
+
+The link to Binder will launch [RStudio IDE](https://posit.co/products/open-source/rstudio-server/).
+
+:::{.callout-important}
+
+Binder uses the information in `runtime.txt` to launch [RStudio IDE](https://posit.co/products/open-source/rstudio-server/).
+
+:::
+
+## References
 
 ::: {#refs}
 :::
