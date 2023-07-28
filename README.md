@@ -1,6 +1,6 @@
 # Minimal Example of Tutorial as R package vignette
 
-[`vignettes/example.Rmd`](https://github.com/GESIS-Methods-Hub/minimal-example-rstats-package/blob/main/vignettes/example.Rmd) illustrates all **required** metadata used by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
+[`vignettes/example.Rmd`](https://github.com/GESIS-Methods-Hub/minimal-example-rstats-package/blob/main/vignettes/example.Rmd) illustrates all **required** metadata used by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew).
 
 ## Metadata
 
@@ -14,9 +14,9 @@
 
 ## Supported Features
 
-[`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/) to convert Markdown to HTML. Because Quarto and R Markdown are not 100% compatible, we provide a comparison of features in the next table.
+[`andrew`](https://github.com/GESIS-Methods-Hub/andrew) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/) to convert Markdown to HTML. Because Quarto and R Markdown are not 100% compatible, we provide a comparison of features in the next table.
 
-| Feature | [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) | [`pkgdown`](https://pkgdown.r-lib.org/) | Notes |
+| Feature | [`andrew`](https://github.com/GESIS-Methods-Hub/andrew) | [`pkgdown`](https://pkgdown.r-lib.org/) | Notes |
 | --- | --- | --- | --- |
 | Pandoc’s Markdown | 👍 | 👍 | |
 | Callout Blocks | 👍 | 😥 | `pkgdown` does **not** have the CSS for callout blocks. |

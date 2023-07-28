@@ -19,13 +19,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-This example demonstrates the required metadata by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
+This example demonstrates the required metadata by [`andrew`](https://github.com/GESIS-Methods-Hub/andrew).
 
 ## Markdown {#sec-markdown}
 
 ::: {.callout-important}
 
-[`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/) to convert Markdown to HTML.
+[`andrew`](https://github.com/GESIS-Methods-Hub/andrew) uses [Quarto](https://quarto.org/) and [`pkgdown`](https://pkgdown.r-lib.org/) uses [R Markdown](https://rmarkdown.rstudio.com/) to convert Markdown to HTML.
 
 :::
 
